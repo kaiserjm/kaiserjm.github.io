@@ -9,7 +9,7 @@ var times = [
 
 $(document).ready(function() {
   var age = document.getElementById("age");
-  let iWasBorn = moment.tz("1995-06-18 00:38", "America/Chicago");
+  let iWasBorn = moment.tz("1995-05-18 00:00", "America/Chicago");
   let setAge = () => {
     let now = moment()
     let diff = now.diff(iWasBorn);
